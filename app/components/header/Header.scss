@@ -1,0 +1,35 @@
+
+.header {
+  height: 115px;
+  width: 100%;
+  background: #0F1624;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 52px;
+
+  &__logo {
+    color: white;
+    width: 80px;
+    font-size: 32px;
+    letter-spacing: -5px;
+  }
+  &__navbar {
+    display: flex;
+    gap: 2rem;
+    color: white;
+  }
+
+  &__icons-container {
+    display: flex;
+    gap: 1rem;
+    width: 80px;
+
+  }
+
+  &__icons {
+    height: 32px;
+    color: white;
+  }
+}
+

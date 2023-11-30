@@ -1,0 +1,33 @@
+
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__grid {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 4rem 1rem;
+    width: 100%;
+    max-width: 1200px;
+    justify-items: center;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+
+  
+  }
+
+  &__title {
+    margin-top: 2rem;
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2rem;
+  }
+}
